@@ -131,8 +131,8 @@ ax.set_xlabel('\nPredicted Values')
 ax.set_ylabel('Actual Values ');
 
 ## Ticket labels - List must be in alphabetical order
-ax.xaxis.set_ticklabels(['False','True'])
-ax.yaxis.set_ticklabels(['False','True'])
+ax.xaxis.set_ticklabels(['0','1','2','3'])
+ax.yaxis.set_ticklabels(['0','1','2','3'])
 ## Display the visualization of the Confusion Matrix.
 plt.show()
 
